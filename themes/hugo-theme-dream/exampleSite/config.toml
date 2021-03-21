@@ -1,10 +1,10 @@
-baseurl = "https://wifi25.net"
+baseurl = "https://example.com"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "Hugo Theme Dream"
 theme = "hugo-theme-dream"
 
-# copyright = "2021"
+# copyright = ""
 
 # googleAnalytics = ""
 
@@ -25,12 +25,12 @@ theme = "hugo-theme-dream"
   # darkNav = true
   # dark404 = true
 
-  author = "wifi博士"
-  description = "サイト説明文"
+  author = "Yue Yang"
+  # description = ""
   avatar = "/img/avatar.jpg"
-  headerTitle = "WIFI寺子屋"
-  motto = "WIFIの点（はてな？）が線（なるほど!）に変わる瞬間を支援するのが最大の喜び"
-  categoriesLimitInHeader = 6 # deprecated
+  # headerTitle = ""
+  motto = "Motto"
+  # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
   # footerBottomText = ""
