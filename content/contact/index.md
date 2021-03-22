@@ -1,10 +1,13 @@
 ---
-title: "お問合わせ"
+draft: false
+title: お問合わせ
 date: 2019-12-17T23:58:33+09:00
-description: Contact page
-type: contact
+lastmod: 2021-03-22T06:16:46.618Z
 service: formspree
-formId: "talk@breakasweat8.com	"
+type: contact
+description: Contact page
+formId: "talk@breakasweat8.com\t"
 ---
+お問い合わせは以下よりお願い致します。
 
-This is contact page.
+[talking@wifi25.net](talking@wifi25.net)
