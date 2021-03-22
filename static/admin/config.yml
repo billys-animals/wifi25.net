@@ -2,6 +2,7 @@ backend:
   name: github
   repo: billys-animals/wifi25.net
   branch: main
+publish_mode: editorial_workflow
 media_folder: "static/img"
 public_folder: "/img"
 collections:
