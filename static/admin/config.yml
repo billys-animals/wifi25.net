@@ -83,7 +83,6 @@ collections:
       - label: "Last Mod"
         name: "lastmod"
         widget: "datetime"
-
       - label: "Body"
         name: "body"
         widget: "markdown"
