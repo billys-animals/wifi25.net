@@ -2,7 +2,7 @@
 title: プライバシーポリシー
 author: スフィア
 type: page
-draft: true
+draft: false
 date: 2020-01-13T00:53:21+00:00
 lastmod: 2021-03-22T05:29:07.735Z
 ---
