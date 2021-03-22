@@ -41,7 +41,6 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-
   - name: "page"
     label: "Pages"
     folder: "content/pages" # The path to the folder where the documents are stored
