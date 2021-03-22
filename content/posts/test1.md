@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: test1
 date: 2016-12-30T22:36:49+08:00
 lastmod: 2017-11-12T23:17:50+08:00
