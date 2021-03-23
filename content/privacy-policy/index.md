@@ -1,6 +1,6 @@
 ---
 title: プライバシーポリシー
-author: スフィア
+author: wifi博士
 type: page
 draft: false
 date: 2020-01-13T00:53:21+00:00
