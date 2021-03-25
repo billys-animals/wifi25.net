@@ -10,4 +10,4 @@ formId: "talk@breakasweat8.com\t"
 ---
 お問い合わせは以下よりお願い致します。
 
-[talking@wifi25.net](talking@wifi25.net)
+[talking@wifi25.net](mailto:talking@wifi25.net)
