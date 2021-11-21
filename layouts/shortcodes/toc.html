@@ -1,0 +1,39 @@
+<style>
+  #float-toc-box {
+    position: fixed;
+    right: 5em;
+    width: 25em;
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid;
+    z-index: 10000;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+  }
+  #TableOfContents ul {
+    counter-reset: section;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 1em;
+  }
+  #TableOfContents li::before {
+    counter-increment: section;
+    content: counters(section, ".") " ";
+  }
+</style>
+<script>
+  toggleTOC = () => {
+    let e = document.getElementById('TableOfContents-box');
+    if(e.style.display == "none"){
+      e.style.display = "inline"
+      document.getElementById('toc-toggle').innerHTML = "▼"
+    }else{
+      e.style.display = "none"
+      document.getElementById('toc-toggle').innerHTML = "▲"
+    }
+  }
+</script>
+<aside id="float-toc-box">
+  <center><strong>目次 <a id="toc-toggle" onClick="toggleTOC()">▼</a></strong></center>
+  <div id="TableOfContents-box">
+    {{ .Page.TableOfContents }}
+  </div>
+</aside>

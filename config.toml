@@ -1,0 +1,50 @@
+baseURL = "/"
+ContentLanguage = "ja"
+hasCJKLanguage = true
+
+title = "WIFi寺子屋"
+theme = "hugo-theme-relearn"
+# themesdir = "../.."
+metaDataFormat = "yaml"
+# defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "WiFiに関する知りたいの全てをわかりやすく解説"
+  author = "スフィア"
+  showVisitedLinks = true
+  disableToc = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+ # Change default color scheme with a variant one. Can be empty, "red", "blue", "green".
+  themeVariant = "blue"
+  
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[frontmatter]
+lastmod = [":git", "lastmod", "date", "publishDate", ":fileModTime"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = true
+    startLevel = 2
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[module]
+  [module.hugoVersion]
+    min = "0.25"
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 30
